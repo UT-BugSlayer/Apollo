@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour {
     [SerializeField] float rcsThrust = 100f;
@@ -44,9 +45,15 @@ public class Rocket : MonoBehaviour {
             case "Friendly":
                 print("Friendly");
                 break;
+
+            case "Finish":
+                print("Hit Finish");
+                SceneManager.LoadScene(1);
+                break;
             
             default:
                 print("Deadly");
+                SceneManager.LoadScene(0);
                 break;
         }
     }
