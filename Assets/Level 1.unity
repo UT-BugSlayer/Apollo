@@ -1033,6 +1033,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 216950744651649655, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 216950744651649655, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 216950744651649655, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.56185
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419695553631264624, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4644cb80fb1e18644b41eb9b5ed5a2e5, type: 3}
+    - target: {fileID: 1419695553631264624, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: finishSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dfe931e1caf35a041b7c5411791d35a5, type: 3}
     - target: {fileID: 1419695553631264625, guid: 60bd11b209d89ad438b5dcf8046da8fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1088,25 +1113,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1419695553631264625, guid: 60bd11b209d89ad438b5dcf8046da8fa,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6264821
-      objectReference: {fileID: 0}
-    - target: {fileID: 1419695553631264625, guid: 60bd11b209d89ad438b5dcf8046da8fa,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6264821
-      objectReference: {fileID: 0}
-    - target: {fileID: 1419695553631264625, guid: 60bd11b209d89ad438b5dcf8046da8fa,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6264821
-      objectReference: {fileID: 0}
     - target: {fileID: 1419695553631264629, guid: 60bd11b209d89ad438b5dcf8046da8fa,
         type: 3}
       propertyPath: m_Name
       value: Rocket Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.72107
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.72107
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377779642134409352, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.72107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191034105300361000, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5445749
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191034105300361000, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5445749
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191034105300361000, guid: 60bd11b209d89ad438b5dcf8046da8fa,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5445749
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60bd11b209d89ad438b5dcf8046da8fa, type: 3}
